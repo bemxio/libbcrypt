@@ -57,6 +57,8 @@ extern char *__des_crypt_r(const char *key, const char *salt,
 extern struct crypt_data _ufc_foobar;
 #endif
 
+extern char* strdup(const char*);
+
 static int _crypt_data_alloc(void **data, int *size, int need)
 {
 	void *updated;
